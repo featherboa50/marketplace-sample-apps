@@ -1273,3 +1273,166 @@ ReferenceError: event is not defined
 2022-10-31 12:55:00.824 -0700 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
 2022-10-31 12:55:07.382 -0700 [info] 
 NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-10-31 13:04:20.520 -0700 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-10-31 13:04:20.523 -0700 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Ariel.Cooper/.fdk/configs.json: Cannot find module 'C:\Users\Ariel.Cooper/.fdk/configs.json'
+Require stack:
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\configs.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\logger.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\index.js[0m
+2022-10-31 13:04:20.523 -0700 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-10-31 13:04:20.523 -0700 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\serverless/.fdk/configs.json: Cannot find module 'C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\serverless/.fdk/configs.json'
+Require stack:
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\configs.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\logger.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\index.js[0m
+2022-10-31 13:04:20.523 -0700 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-10-31 13:04:20.523 -0700 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-10-31 13:04:20.523 -0700 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-10-31 13:04:20.523 -0700 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.1 on win32[0m
+2022-10-31 13:04:20.523 -0700 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\serverless/.fdk/store.sqlite"[0m
+2022-10-31 13:04:20.523 -0700 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-10-31 13:04:20.523 -0700 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by September 30, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.6.5","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.11.1","url":"https://dl.freshdev.io/cli-addon/addon.zip"}},"last_updated":{"time_stamp":1667233597446}}[0m
+2022-10-31 13:04:20.523 -0700 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-10-31 13:04:20.793 -0700 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshservice":{"events":{"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.1","fdk":"8.6.5"}}.[0m
+2022-10-31 13:04:20.794 -0700 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-10-31 13:04:20.796 -0700 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by September 30, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.6.5","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.11.1","url":"https://dl.freshdev.io/cli-addon/addon.zip"}},"last_updated":{"time_stamp":1667233597446}}[0m
+2022-10-31 13:04:20.816 -0700 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by September 30, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.6.5","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.11.1","url":"https://dl.freshdev.io/cli-addon/addon.zip"}},"last_updated":{"time_stamp":1667233597446}}[0m
+2022-10-31 13:04:21.892 -0700 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by September 30, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.6.5","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.11.1","url":"https://dl.freshdev.io/cli-addon/addon.zip"}},"last_updated":{"time_stamp":1667233597446}}[0m
+2022-10-31 13:04:22.988 -0700 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-10-31 13:04:22.989 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-10-31 13:04:22.989 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-10-31 13:04:22.989 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-10-31 13:04:22.989 -0700 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\serverless/config/ exists.[0m
+2022-10-31 13:04:22.990 -0700 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-10-31 13:04:22.990 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-10-31 13:04:22.990 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-10-31 13:04:22.997 -0700 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketUpdateCallback"] as exported functions.[0m
+2022-10-31 13:04:22.997 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-10-31 13:04:23.000 -0700 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-10-31 13:04:23.000 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-10-31 13:04:23.000 -0700 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-10-31 13:04:23.000 -0700 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-10-31 13:04:23.000 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-10-31 13:04:23.000 -0700 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-10-31 13:04:23.000 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-10-31 13:04:23.000 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-10-31 13:04:23.003 -0700 [warn] Please ensure that the following are addressed for quick review process.
+2022-10-31 13:04:23.005 -0700 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-10-31 13:04:23.011 -0700 [error] 
+2022-10-31 13:04:23.013 -0700 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-10-31 13:04:23.017 -0700 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-10-31 13:04:23.018 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-10-31 13:04:23.019 -0700 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-10-31 13:04:23.019 -0700 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-10-31 13:04:23.292 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-10-31 13:04:23.294 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-10-31 13:04:23.295 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-10-31 13:04:23.296 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\entity.js"[0m
+2022-10-31 13:04:23.297 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\record.js"[0m
+2022-10-31 13:04:23.298 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-10-31 13:04:23.318 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-10-31 13:04:23.321 -0700 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-10-31 13:04:23.321 -0700 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshservice account URL to start testing    
+e.g. https://domain.freshservice.com/helpdesk/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-10-31 13:04:23.323 -0700 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-10-31 13:04:23.329 -0700 [info] Populating test data with events found in the app
+2022-10-31 13:04:24.079 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-10-31 13:04:24.079 -0700 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-10-31 13:04:24.079 -0700 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketUpdate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketUpdate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":1,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"changes":{"priority":[null,3],"priority_name":["Low","High"],"status":[1,2],"status_name":["Open","Closed"],"source":[1,2],"source_name":["Email","Phone"],"type_name":["Incident","Service Request"],"urgency":[1,2],"urgency_name":["Low","Medium"],"impact":[1,2],"impact_name":["Low","Medium"],"group_id":[1,2],"group_name":["Incident Management","Change Management"],"agent_id":[1,2],"agent_name":["Rachel","Andrea"],"department_id":[1,2],"department_name":["HR","Finance"],"category":["Hardware","Software"],"sub_category":["Windows","Phone"],"item_category":["*","Mac"],"manual_due_by":["*","2017-06-16T11:57:30"],"custom_fields":[{"name":"Transaction Type","value":["old value","new value"]}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-10-31 13:04:24.080 -0700 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\serverless\server\server.js[0m
+2022-10-31 13:04:24.121 -0700 [error] server.js:135
+    var change_data = (cov_2b5okue2p4.s[2]++, event.helper.getData(changes)); //Your code goes here
+                                              ^
+
+ReferenceError: event is not defined
+    at Object.onTicketUpdateCallback (server.js:135:47)
+    at server.js:2:44
+    at server.js:4:7
+    at Script.runInContext (vm.js:144:12)
+    at ProductEvent.sandboxExecutor (C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\event_handler\framework.js:226:25)
+    at ProductEvent.execute (C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\event_handler\framework.js:220:10)
+    at ProductEvent.execute (C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\event_handler\framework.js:319:13)
+    at handler (C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\event_handler\framework.js:363:11)
+    at handleRequest (C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\routes\beevents.js:108:3)
+    at Layer.handle [as handle_request] (C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+2022-10-31 13:04:24.633 -0700 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-10-31 13:04:30.427 -0700 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-10-31 13:04:43.295 -0700 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-10-31 13:04:43.297 -0700 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Ariel.Cooper/.fdk/configs.json: Cannot find module 'C:\Users\Ariel.Cooper/.fdk/configs.json'
+Require stack:
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\configs.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\logger.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\index.js[0m
+2022-10-31 13:04:43.297 -0700 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-10-31 13:04:43.298 -0700 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\serverless/.fdk/configs.json: Cannot find module 'C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\serverless/.fdk/configs.json'
+Require stack:
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\configs.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\logger.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\index.js[0m
+2022-10-31 13:04:43.298 -0700 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-10-31 13:04:43.298 -0700 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-10-31 13:04:43.298 -0700 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-10-31 13:04:43.298 -0700 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.1 on win32[0m
+2022-10-31 13:04:43.298 -0700 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\serverless/.fdk/store.sqlite"[0m
+2022-10-31 13:04:43.298 -0700 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-10-31 13:04:43.298 -0700 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by September 30, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.6.5","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.11.1","url":"https://dl.freshdev.io/cli-addon/addon.zip"}},"last_updated":{"time_stamp":1667233597446}}[0m
+2022-10-31 13:04:43.298 -0700 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-10-31 13:04:43.517 -0700 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshservice":{"events":{"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.1","fdk":"8.6.5"}}.[0m
+2022-10-31 13:04:43.517 -0700 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-10-31 13:04:43.519 -0700 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by September 30, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.6.5","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.11.1","url":"https://dl.freshdev.io/cli-addon/addon.zip"}},"last_updated":{"time_stamp":1667233597446}}[0m
+2022-10-31 13:04:43.536 -0700 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by September 30, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.6.5","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.11.1","url":"https://dl.freshdev.io/cli-addon/addon.zip"}},"last_updated":{"time_stamp":1667233597446}}[0m
+2022-10-31 13:04:44.640 -0700 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by September 30, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.6.5","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.11.1","url":"https://dl.freshdev.io/cli-addon/addon.zip"}},"last_updated":{"time_stamp":1667233597446}}[0m
+2022-10-31 13:04:45.825 -0700 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-10-31 13:04:45.826 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-10-31 13:04:45.826 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-10-31 13:04:45.826 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-10-31 13:04:45.826 -0700 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\serverless/config/ exists.[0m
+2022-10-31 13:04:45.827 -0700 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-10-31 13:04:45.827 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-10-31 13:04:45.827 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-10-31 13:04:45.833 -0700 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketUpdateCallback"] as exported functions.[0m
+2022-10-31 13:04:45.834 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-10-31 13:04:45.837 -0700 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-10-31 13:04:45.837 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-10-31 13:04:45.837 -0700 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-10-31 13:04:45.837 -0700 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-10-31 13:04:45.837 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-10-31 13:04:45.837 -0700 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-10-31 13:04:45.837 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-10-31 13:04:45.837 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-10-31 13:04:45.839 -0700 [warn] Please ensure that the following are addressed for quick review process.
+2022-10-31 13:04:45.842 -0700 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-10-31 13:04:45.847 -0700 [error] 
+2022-10-31 13:04:45.848 -0700 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-10-31 13:04:45.854 -0700 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-10-31 13:04:45.855 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-10-31 13:04:45.855 -0700 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-10-31 13:04:45.855 -0700 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-10-31 13:04:46.117 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-10-31 13:04:46.120 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-10-31 13:04:46.121 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-10-31 13:04:46.122 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\entity.js"[0m
+2022-10-31 13:04:46.123 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\record.js"[0m
+2022-10-31 13:04:46.124 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-10-31 13:04:46.140 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-10-31 13:04:46.141 -0700 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-10-31 13:04:46.141 -0700 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshservice account URL to start testing    
+e.g. https://domain.freshservice.com/helpdesk/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-10-31 13:04:46.143 -0700 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-10-31 13:04:46.148 -0700 [info] Populating test data with events found in the app
+2022-10-31 13:04:47.004 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-10-31 13:04:47.004 -0700 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-10-31 13:04:47.004 -0700 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketUpdate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketUpdate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":1,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"changes":{"priority":[null,3],"priority_name":["Low","High"],"status":[1,2],"status_name":["Open","Closed"],"source":[1,2],"source_name":["Email","Phone"],"type_name":["Incident","Service Request"],"urgency":[1,2],"urgency_name":["Low","Medium"],"impact":[1,2],"impact_name":["Low","Medium"],"group_id":[1,2],"group_name":["Incident Management","Change Management"],"agent_id":[1,2],"agent_name":["Rachel","Andrea"],"department_id":[1,2],"department_name":["HR","Finance"],"category":["Hardware","Software"],"sub_category":["Windows","Phone"],"item_category":["*","Mac"],"manual_due_by":["*","2017-06-16T11:57:30"],"custom_fields":[{"name":"Transaction Type","value":["old value","new value"]}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-10-31 13:04:47.005 -0700 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\serverless\server\server.js[0m
+2022-10-31 13:04:47.554 -0700 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
