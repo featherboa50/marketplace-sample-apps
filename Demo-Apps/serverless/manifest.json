@@ -2,14 +2,14 @@
   "platform-version": "2.2",
   "product": {
     "freshservice": {
-      "location": {
-        "ticket_sidebar": {
-          "url": "note_reminder_index.html",
-          "icon": "icon.svg"
-        }
+      "events": {
+        "onTicketUpdate": {
+			"handler": "onTicketUpdateCallback"
+		}
       }
     }
   },
+  "whitelisted-domains": [],
   "engines": {
     "node": "14.20.1",
     "fdk": "8.6.5"

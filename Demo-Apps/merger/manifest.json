@@ -2,13 +2,15 @@
   "platform-version": "2.2",
   "product": {
     "freshservice": {
-      "location": {
-        "ticket_sidebar": {
-          "url": "note_reminder_index.html",
-          "icon": "icon.svg"
+      "events": {
+        "onTicketUpdate": {
+          "handler": "onTicketUpdateCallback"
         }
       }
     }
+  },
+  "dependencies": {
+    "needle": "1.6.0"
   },
   "engines": {
     "node": "14.20.1",
