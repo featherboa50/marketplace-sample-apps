@@ -4,8 +4,10 @@
     "freshservice": {
       "events": {
         "onTicketUpdate": {
-			"handler": "onTicketUpdateCallback"
-		}
+			"handler": "onTicketUpdateCallback"},
+        "onConversationCreate": {
+          "handler": "onConversationCreateCallback"
+        }
       }
     }
   },
