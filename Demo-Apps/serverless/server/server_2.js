@@ -1,6 +1,15 @@
-function getCCList(ticket){
-	
-}
+//'use strict';
+var helpers = require('./helpers');
+
+/*function mergeWithPrimary(args) {
+  var requests;
+
+			requests = [{
+			  method: 'GET',
+			  url: `${args.domain}/api/v2/tickets/${ticket}`,
+			  apiKey: args.apiKey,
+			}];
+}*/
 
 function getTicketfromDesc(desc) {
 	var r = /\d+/;
@@ -8,19 +17,19 @@ function getTicketfromDesc(desc) {
 	
 	//parent
 	if (desc.toLowerCase().includes('merged from')){
-		ticket = parseInt(desc.match(r));
+		ticket = desc.match(r);
 		console.log("Child ticket:" + ticket);
 		
 	//child do i need this? or willit make a loop?
 	}else if(desc.toLowerCase().includes('merged into')){
-		ticket = parseInt(desc.match(r));
-		console.log("Parent ticket:" + ticket);
+		ticket = desc.match(r);
+		console.log("Parent ticket:" + ticket + typeof(ticket));
 	//Not a merge no further action needed
 	}else{
 		//ticket = 0;
 		console.log("Not merged");
 	}
-
+	//return ticket;
 }
 
 exports = {
@@ -40,13 +49,24 @@ exports = {
 			console.log(cc);
 		}
     },
+	// If convo is created check text to see if merged, if so then update cc list
 	 onConversationCreateCallback: function (args) {
-		//console.log("Convo");
+		const data = args.data,
+		//iparams = args.iparams,
+		requester = data.requester,
+		secondaryTicket = data.ticket;
+		
 		var description = args.data.conversation.body_text;
-		getTicketfromDesc(description);
-		
-		
-		//curl -v -u CnvwmbRJJe7zUowpWh:X -H "Content-Type: application/json" -X GET 'https://resideworldwide.freshservice.com/api/v2/tickets/11625'
-		
-	}
+		//If ( != 0){
+		getTicketfromDesc(description));
+			/*mergeWithPrimary({
+				requester: requester,
+				domain: args.domain,
+				apiKey: iparams.apiKey,
+				//primaryTicket: primaryTicket,
+				windowDuration: parseInt(iparams.window),
+				//secondaryTicket: secondaryTicket
+			  });*/
+		}	
+    }
 }
