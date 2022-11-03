@@ -18,7 +18,8 @@ function saveTicket(requesterID, ticket) {
 }
 
 function callAPI(options, callback) {
-  options.url = options.url.startsWith('https://') ? options.url : 'https://' + options.url;
+	//console.log(options.url);
+	options.url = options.url.startsWith('https://') ? options.url : 'https://' + options.url;
 
   return needle.request(options.method, options.url, options.body, {
     username: options.apiKey,

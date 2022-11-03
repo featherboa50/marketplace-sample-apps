@@ -11,5 +11,9 @@
   },
   "dependencies": {
     "needle": "1.6.0"
+  },
+  "engines": {
+    "node": "14.20.1",
+    "fdk": "8.6.6"
   }
 }

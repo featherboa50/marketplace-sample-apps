@@ -1,0 +1,120 @@
+2022-11-03 10:07:31.081 -0700 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-11-03 10:07:31.084 -0700 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Ariel.Cooper/.fdk/configs.json: Cannot find module 'C:\Users\Ariel.Cooper/.fdk/configs.json'
+Require stack:
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\configs.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\logger.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\index.js[0m
+2022-11-03 10:07:31.084 -0700 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-11-03 10:07:31.084 -0700 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\ticket_merger/.fdk/configs.json: Cannot find module 'C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\ticket_merger/.fdk/configs.json'
+Require stack:
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\configs.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\logger.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\index.js[0m
+2022-11-03 10:07:31.084 -0700 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-11-03 10:07:31.084 -0700 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-11-03 10:07:31.085 -0700 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-11-03 10:07:31.085 -0700 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.1 on win32[0m
+2022-11-03 10:07:31.085 -0700 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\ticket_merger/.fdk/store.sqlite"[0m
+2022-11-03 10:07:31.085 -0700 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-11-03 10:07:31.085 -0700 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by September 30, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.6.6","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.11.1","url":"https://dl.freshdev.io/cli-addon/addon.zip"}},"last_updated":{"time_stamp":1667494936354}}[0m
+2022-11-03 10:07:31.085 -0700 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-11-03 10:07:31.351 -0700 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshdesk":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"dependencies":{"needle":"1.6.0"}}.[0m
+2022-11-03 10:07:31.352 -0700 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-11-03 10:07:31.356 -0700 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by September 30, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.6.6","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.11.1","url":"https://dl.freshdev.io/cli-addon/addon.zip"}},"last_updated":{"time_stamp":1667494936354}}[0m
+2022-11-03 10:07:31.385 -0700 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by September 30, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.6.6","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.11.1","url":"https://dl.freshdev.io/cli-addon/addon.zip"}},"last_updated":{"time_stamp":1667494936354}}[0m
+2022-11-03 10:07:31.621 -0700 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\ticket_merger/.report.json: Cannot find module 'C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\ticket_merger/.report.json'
+Require stack:
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\configs.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\logger.js
+- C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\index.js[0m
+2022-11-03 10:07:32.632 -0700 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by September 30, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.6.6","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.11.1","url":"https://dl.freshdev.io/cli-addon/addon.zip"}},"last_updated":{"time_stamp":1667494936354}}[0m
+2022-11-03 10:07:33.825 -0700 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-11-03 10:07:33.825 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-11-03 10:07:33.825 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-11-03 10:07:33.826 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-11-03 10:07:33.826 -0700 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\ticket_merger/config/ exists.[0m
+2022-11-03 10:07:33.826 -0700 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2022-11-03 10:07:33.826 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-11-03 10:07:33.827 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-11-03 10:07:33.839 -0700 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler"] as exported functions.[0m
+2022-11-03 10:07:33.839 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-11-03 10:07:33.845 -0700 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-11-03 10:07:33.845 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-11-03 10:07:33.845 -0700 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-11-03 10:07:33.845 -0700 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-11-03 10:07:33.845 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-11-03 10:07:33.845 -0700 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-11-03 10:07:33.845 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-11-03 10:07:33.846 -0700 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-11-03 10:07:33.847 -0700 [warn] [33m[WARN][0m App was developed in Node.js runtime 10 or below, and is currently being executed in v14.20.1
+2022-11-03 10:07:51.988 -0700 [debug] ([34mversion-check.js[0m) [31mabout to delete coverage folder[0m
+2022-11-03 10:07:51.989 -0700 [debug] ([34mversion-check.js[0m) [31mabout to delete report json[0m
+2022-11-03 10:07:51.989 -0700 [debug] ([34mversion-check.js[0m) [31mabout to delete node_modules folder[0m
+2022-11-03 10:07:51.990 -0700 [debug] ([34mversion-check.js[0m) [31mabout to modify node version in manifest[0m
+2022-11-03 10:07:51.997 -0700 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshdesk":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"dependencies":{"needle":"1.6.0"},"engines":{"node":"14.20.1","fdk":"8.6.6"}}.[0m
+2022-11-03 10:07:51.997 -0700 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-11-03 10:07:51.998 -0700 [debug] ([34mrun.js[0m) [31mSkipping Coverage.[0m
+2022-11-03 10:07:51.999 -0700 [debug] ([34mcoverage-util.js[0m) [31mSnoozing coverage.[0m
+2022-11-03 10:07:52.002 -0700 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-11-03 10:07:52.014 -0700 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {"needle":"1.6.0"}[0m
+2022-11-03 10:07:52.044 -0700 [debug] ([34minstall-util.js[0m) [31mPreparing to install the following dependencies needle@1.6.0[0m
+2022-11-03 10:07:52.044 -0700 [info] Installing dependencies...
+2022-11-03 10:07:53.129 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:07:53.129 -0700 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-11-03 10:07:53.129 -0700 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-11-03 10:07:53.279 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-11-03 10:07:53.281 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-11-03 10:07:53.282 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-11-03 10:07:53.283 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\entity.js"[0m
+2022-11-03 10:07:53.285 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\record.js"[0m
+2022-11-03 10:07:53.287 -0700 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ariel.Cooper\AppData\Roaming\nvm\v14.20.1\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-11-03 10:07:53.310 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:07:53.311 -0700 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-11-03 10:07:53.311 -0700 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-11-03 10:07:53.323 -0700 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-11-03 10:07:53.324 -0700 [info] Populating test data with events found in the app
+2022-11-03 10:07:53.325 -0700 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-11-03 10:08:22.332 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:08:22.333 -0700 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"ticket_merger","product":{"freshdesk":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-11-03 10:08:22.339 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:08:22.340 -0700 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"ticket_merger","product":{"freshdesk":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-11-03 10:08:22.343 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:08:22.343 -0700 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"ticket_merger","product":{"freshdesk":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.2","v2":[]}[0m
+2022-11-03 10:08:23.843 -0700 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler"] as exported functions.[0m
+2022-11-03 10:08:25.512 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:08:25.512 -0700 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-11-03 10:08:25.512 -0700 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketCreate","methodParams":{"data":{"ticket":{"subject":"Support Needed...","description":"<div dir=\"ltr\" style='font-size: 13px; font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;'>\n<div>adfadsf</div>\r\n</div>","description_text":"Some details on the issue ...","due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["ram@freshdesk.com","diana@freshdesk.com"],"reply_cc_emails":["ram@freshdesk.com","diana@freshdesk.com"],"email_config_id":77123,"id":320,"group_id":351,"product_id":1,"company_id":2,"requester_id":129,"responder_id":320,"tweet_id":"72930362112890567389","status":2,"priority":1,"type":"Question","tags":["sales","marketing"],"spam":false,"source":2,"cc_emails":["ram@freshdesk.com","diana@freshdesk.com"],"to_emails":["ram@freshdesk.com","diana@freshdesk.com"],"created_at":"2017-07-13T05:52:49Z","updated_at":"2015-07-09T13:08:06Z","attachments":[]},"requester":{"id":9017002524,"name":"Rachel","email":"rachel@freshdesk.com","mobile":7654367287,"phone":4352789885}},"account_id":13,"domain":"https://unmarried.freshdesk.com","iparams":{},"event":"onTicketCreate"}}}[0m
+2022-11-03 10:08:25.513 -0700 [debug] ([34mcoverage-util.js[0m) [31mSkipped instrumenting C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\ticket_merger/server/server.js[0m
+2022-11-03 10:08:25.515 -0700 [debug] ([34mcoverage-util.js[0m) [31mSkipped instrumenting C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\ticket_merger\server\helpers.js[0m
+2022-11-03 10:08:25.539 -0700 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "db" with action "fetch" and body {"dbKey":"9017002524","action":"fetch"}[0m
+2022-11-03 10:08:25.541 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:08:25.549 -0700 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "db" with action "store" and body {"dbKey":"9017002524","data":{"id":320,"created_at":"2017-07-13T05:52:49Z"},"action":"store","options":{}}[0m
+2022-11-03 10:08:25.551 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:08:26.029 -0700 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-11-03 10:08:27.956 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:08:27.956 -0700 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-11-03 10:08:27.956 -0700 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketCreate","methodParams":{"data":{"ticket":{"subject":"Support Needed...","description":"<div dir=\"ltr\" style='font-size: 13px; font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;'>\n<div>adfadsf</div>\r\n</div>","description_text":"Some details on the issue ...","due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["ram@freshdesk.com","diana@freshdesk.com"],"reply_cc_emails":["ram@freshdesk.com","diana@freshdesk.com"],"email_config_id":77123,"id":320,"group_id":351,"product_id":1,"company_id":2,"requester_id":129,"responder_id":320,"tweet_id":"72930362112890567389","status":2,"priority":1,"type":"Question","tags":["sales","marketing"],"spam":false,"source":2,"cc_emails":["ram@freshdesk.com","diana@freshdesk.com"],"to_emails":["ram@freshdesk.com","diana@freshdesk.com"],"created_at":"2017-07-13T05:52:49Z","updated_at":"2015-07-09T13:08:06Z","attachments":[]},"requester":{"id":9017002524,"name":"Rachel","email":"rachel@freshdesk.com","mobile":7654367287,"phone":4352789885}},"account_id":13,"domain":"https://unmarried.freshdesk.com","iparams":{},"event":"onTicketCreate"}}}[0m
+2022-11-03 10:08:27.957 -0700 [debug] ([34mcoverage-util.js[0m) [31mSkipped instrumenting C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\ticket_merger/server/server.js[0m
+2022-11-03 10:08:27.959 -0700 [debug] ([34mcoverage-util.js[0m) [31mSkipped instrumenting C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\ticket_merger\server\helpers.js[0m
+2022-11-03 10:08:27.963 -0700 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "db" with action "fetch" and body {"dbKey":"9017002524","action":"fetch"}[0m
+2022-11-03 10:08:27.966 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:08:27.970 -0700 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "db" with action "store" and body {"dbKey":"9017002524","data":{"id":320,"created_at":"2017-07-13T05:52:49Z"},"action":"store","options":{}}[0m
+2022-11-03 10:08:27.972 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:08:28.469 -0700 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-11-03 10:08:31.614 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:08:31.614 -0700 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-11-03 10:08:31.615 -0700 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketCreate","methodParams":{"data":{"ticket":{"subject":"Support Needed...","description":"<div dir=\"ltr\" style='font-size: 13px; font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;'>\n<div>adfadsf</div>\r\n</div>","description_text":"Some details on the issue ...","due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["ram@freshdesk.com","diana@freshdesk.com"],"reply_cc_emails":["ram@freshdesk.com","diana@freshdesk.com"],"email_config_id":77123,"id":320,"group_id":351,"product_id":1,"company_id":2,"requester_id":129,"responder_id":320,"tweet_id":"72930362112890567389","status":2,"priority":1,"type":"Question","tags":["sales","marketing"],"spam":false,"source":2,"cc_emails":["ram@freshdesk.com","diana@freshdesk.com"],"to_emails":["ram@freshdesk.com","diana@freshdesk.com"],"created_at":"2017-07-13T05:52:49Z","updated_at":"2015-07-09T13:08:06Z","attachments":[]},"requester":{"id":9017002524,"name":"Rachel","email":"rachel@freshdesk.com","mobile":7654367287,"phone":4352789885}},"account_id":13,"domain":"https://unmarried.freshdesk.com","iparams":{},"event":"onTicketCreate"}}}[0m
+2022-11-03 10:08:31.615 -0700 [debug] ([34mcoverage-util.js[0m) [31mSkipped instrumenting C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\ticket_merger/server/server.js[0m
+2022-11-03 10:08:31.616 -0700 [debug] ([34mcoverage-util.js[0m) [31mSkipped instrumenting C:\Users\Ariel.Cooper\OneDrive - ABODA\Documents\exampleGit\marketplace-sample-apps\Demo-Apps\ticket_merger\server\helpers.js[0m
+2022-11-03 10:08:31.620 -0700 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "db" with action "fetch" and body {"dbKey":"9017002524","action":"fetch"}[0m
+2022-11-03 10:08:31.621 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:08:31.625 -0700 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "db" with action "store" and body {"dbKey":"9017002524","data":{"id":320,"created_at":"2017-07-13T05:52:49Z"},"action":"store","options":{}}[0m
+2022-11-03 10:08:31.626 -0700 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-11-03 10:08:32.126 -0700 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m

@@ -1,9 +1,14 @@
+var helpers = require('./helpers');
+
 function getCC(args){
-	var request = [{
+	console.log(args);
+	var request = {
 		method: 'GET',
-		//url: `${args.domain}/api/v2/tickets/${args.ticket}`.
-		//apiKey: args.apiKey
-	}];
+		url: `${args.domain}/api/v2/tickets/${args.ticket}`,
+		apiKey: args.apiKey
+	};
+	console.log(request);
+	helpers.callAPI(request);
 }
 
 /*function putCC(){
@@ -15,11 +20,11 @@ function getTicketfromDesc(desc) {
 	var r = /\d+/;
 	var ticket;
 	
-	//parent
+	//primary
 	if (desc.toLowerCase().includes('merged from')){
 		ticket = parseInt(desc.match(r));
 		console.log("Child ticket:" + ticket);
-	//child do i need this? or willit make a loop?
+	//secondary do i need this? or willit make a loop?
 	}else if(desc.toLowerCase().includes('merged into')){
 		ticket = -(parseInt(desc.match(r)));
 		console.log("Parent ticket:" + ticket);
@@ -53,15 +58,17 @@ exports = {
 		key = args.iparams.apiKey
 		description = args.data.conversation.body_text;
 		var tick = getTicketfromDesc(description);
-		//console.log(iparams.apiKey);
+		//console.log(args);
 		
 		if(tick > 0){ //pull cc from tick
+			console.log("is primary");
 			var cclist = getCC({
 				ticket: tick,
 				domain: args.domain,
 				apiKey: key
 			});
 		}else if(tick < 0){ //pull cc from arg
+			console.log("is secondary");
 			var cclist = args.data.cc_emails;
 		}
 		
