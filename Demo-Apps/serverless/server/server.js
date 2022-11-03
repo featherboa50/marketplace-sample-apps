@@ -20,14 +20,14 @@ function getTicketfromDesc(desc) {
 	var r = /\d+/;
 	var ticket;
 	
-	//primary
+	//secondary (might remove this to prevent loop)
 	if (desc.toLowerCase().includes('merged from')){
-		ticket = parseInt(desc.match(r));
-		console.log("Child ticket:" + ticket);
-	//secondary do i need this? or willit make a loop?
+		ticket = -parseInt(desc.match(r));
+		console.log("Primary ticket:" + ticket);
+	//Primary
 	}else if(desc.toLowerCase().includes('merged into')){
-		ticket = -(parseInt(desc.match(r)));
-		console.log("Parent ticket:" + ticket);
+		ticket = (parseInt(desc.match(r)));
+		console.log("Secondary ticket:" + ticket);
 	//Not a merge no further action needed
 	}else{
 		ticket = 0;
